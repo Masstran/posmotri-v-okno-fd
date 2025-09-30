@@ -176,7 +176,7 @@ ol {
   flex-direction: column;
   gap: 26px;
   width: 399px;
-  height: 534px;
+  min-height: 534px;
 }
 
 .title {
@@ -224,6 +224,8 @@ ol {
 .content__video-card-thumbnail {
   min-width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -288,18 +290,18 @@ ol {
 .search-form__submit-button {
   align-self: end;
   width: 194px;
-  height: 34px;
+  min-height: 34px;
 }
 
 .more-button {
   flex-shrink: 0;
   box-sizing: border-box;
   width: 390px;
-  height: 34px;
+  min-height: 34px;
 }
 
 .content__list-item {
-  height: 103px;
+  min-height: 103px;
   padding: 3px;
 }
 
@@ -325,5 +327,5 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #1b1919;
+  background-color: #545050;
 }
